@@ -1,6 +1,7 @@
 import "@styles/globals.css";
 import Nav from "@components/Navbar";
 import Provider from "@components/Provider";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
     title: "Prompt Palatte",
@@ -18,6 +19,7 @@ const RootLayout = ({ children }) => {
                     <main className="app">
                         <Nav />
                         {children}
+                        <Analytics />
                     </main>
                 </Provider>
             </body>
