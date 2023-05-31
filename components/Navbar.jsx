@@ -27,7 +27,7 @@ const Navbar = () => {
                     height={30}
                     className="object-contain"
                 />
-                <p className="logo_text">Prompt Palatte</p>
+                <p className="logo_text">Prompt Palette</p>
             </Link>
 
             {/* For Desktop */}
